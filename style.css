@@ -1,0 +1,128 @@
+body {
+	background-image: url('./img/back.jpg');
+}
+
+.clickable{
+	cursor: pointer;
+}
+
+span.statusMsg{
+	float:right;
+	
+}
+
+textarea {
+	position: absolute;
+	width: 79%;
+	left: 20%;	
+	height: 94%;
+	bottom:1%;
+	background-color: #000;
+	color: #ffffff;
+	opacity: 0.6;
+	font-size: small;
+	border: none;
+	font-family:Andale Mono, courier;
+}
+
+div.widthAdjust{
+	width:1%;
+	position:absolute;
+	left:19%;
+	top:50%;
+	margin-right:10px;
+	opacity:0.6;
+        overflow:auto;
+}
+
+div.fileToolbar{
+	position: absolute;
+	width: 79%;
+	top:1%;
+	left: 20%;	
+	height: 3%;
+	background-color: #000;
+	color: #ffffff;
+	opacity: 0.6;
+	font-size: small;
+        overflow:auto;
+}
+
+div.docTree {
+	position: absolute;
+	top:1%;
+	left: 1%;
+	width: 18%;
+	height: 91%;
+	background-color: #000;
+	color: white;
+	opacity: 0.6;
+	font-size: small;
+        overflow:auto;
+	overflow-x:hidden;
+}
+
+div.toolbar {
+	position: absolute;
+	top: 92%;
+	height:7%;
+	left: 1%;
+	text-align : center;
+	width: 18%;
+	background-color: #000;
+	color: white;
+	opacity: 0.6;
+}
+
+#folder {
+	list-style-image: url('./img/folder.png');
+	cursor: pointer;
+}
+
+#text {
+	background:url('./img/text.png') no-repeat left center; 
+	padding-left:24px;
+	margin: 5px 0;
+	cursor: pointer;
+	list-style-type: none;
+	list-style-image: none;
+/*	line-height:5px;*/
+}
+
+#text:hover{
+	background:url('./img/curText.png') no-repeat left center; 
+	font-weight:bold;
+}
+
+#textCur{
+	background:url('./img/curText.png') no-repeat left center; 
+	padding-left:24px;
+	margin: 5px 0;
+	cursor: pointer;
+	list-style-type: none;
+	list-style-image: none;
+}
+
+
+img.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#upload-form{
+	position:absolute;
+	left:10%;
+	top:10%;
+	width:50%;
+	border:2px solid;
+	padding:20px;
+}
+
+
+#home-form{
+	position:absolute;
+	left:35%;
+	top:45%;
+	width:30%;
+}

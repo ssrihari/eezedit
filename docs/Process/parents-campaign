@@ -1,0 +1,28 @@
+Email
+  [srihari]
+  draft newsletter skeleton
+  fill content
+  verify
+
+SMS
+  draft SMS
+  Verify
+
+Phone
+  Script, write down what has to be said
+  Discus answers to probable questions
+  Write an FAQ
+
+Who
+-------------------------------------------------------
+Email and SMS
+  parents of hbr+kbs, present+past
+  parents of VAC students, present+past
+
+Phone
+  parents of hbr+kbs, present first, then past
+
+Contact Building
+  Convert existing contacts into given format
+  Create mail ids block5hbr2012, block3hbr2012 and kbs2012
+  Create specific contact groups in each by importing csv files
